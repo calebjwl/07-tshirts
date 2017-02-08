@@ -10,6 +10,15 @@
     width: calc(100% / 5);
     background: #fefefe;
   }
+  &__button:hover {
+    background: $c-primary;
+  }
+  &__button:hover .dropdown__list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
 }
 
 .dropdown {
@@ -19,6 +28,7 @@
   }
 
   &__button {
+    border: $c-primary;
 
     &--blue {
 
@@ -36,24 +46,4 @@
 
     }
   }
-  &__button:hover {
-
-
-    &--blue {
-
-    }
-
-    &--green {
-
-    }
-
-    &--blue {
-
-    }
-
-    &--yellow {
-
-    }
-  }
-
 }
