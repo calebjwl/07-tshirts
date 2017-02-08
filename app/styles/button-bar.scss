@@ -13,15 +13,22 @@
   &__button:hover {
     background: $c-primary;
   }
+
   &__button:hover .dropdown__list {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%,0%);
   }
 
 }
 
 .dropdown {
+    position: relative;
 
   &__list {
     display: none;
@@ -30,8 +37,8 @@
   &__button {
     border: $c-primary;
 
-    &--blue {
-
+    &--pink {
+      // background:
     }
 
     &--green {
