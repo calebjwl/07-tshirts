@@ -1,0 +1,59 @@
+.button-bar {
+  display: flex;
+  border-top: $s-border;
+
+  > * + * {
+    border-left: $s-border;
+  }
+
+  &__button {
+    width: calc(100% / 5);
+    background: #fefefe;
+  }
+}
+
+.dropdown {
+
+  &__list {
+    display: none;
+  }
+
+  &__button {
+
+    &--blue {
+
+    }
+
+    &--green {
+
+    }
+
+    &--blue {
+
+    }
+
+    &--yellow {
+
+    }
+  }
+  &__button:hover {
+
+
+    &--blue {
+
+    }
+
+    &--green {
+
+    }
+
+    &--blue {
+
+    }
+
+    &--yellow {
+
+    }
+  }
+
+}

@@ -3,5 +3,32 @@
 
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
+
+$c-primary: #588146;
+
+$s-border: $c-primary 0.2rem solid;
+
 @import 'box-sizing';
 @import 'reset';
+@import 'shop-card';
+@import 'button-bar';
+
+.section {
+
+}
+
+.container {
+
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5rem 10rem;
+}
+
+.grid__item {
+  width: calc(100% / 3 - 2rem);
+  margin: 1rem;
+}
