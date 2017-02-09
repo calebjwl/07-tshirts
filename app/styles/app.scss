@@ -4,13 +4,13 @@
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
 
-$c-primary: #588146;
-$c-white: #fefefe;
+$c-primary: #3473b5;
+$c-white: #fff;
 
-$c-pink: #d566c7;
-$c-green: #55d446;
-$c-blue: #4b6fda;
-$c-yellow: #e0cd49;
+$c-pink: #e577aa;
+$c-green: #7abe93;
+$c-blue: #72bbe9;
+$c-yellow: #e5b178;
 
 $s-border: $c-primary 0.2rem solid;
 
@@ -20,21 +20,26 @@ $s-border: $c-primary 0.2rem solid;
 @import 'button-bar';
 
 .section {
-
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
 }
 
 .container {
-
+  // margin: 1rem;
+  max-width: 60rem;
+  display: flex;
+  justify-content: center;
 }
 
 .grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 5rem 10rem;
 }
 
 .grid__item {
   width: calc(100% / 3 - 2rem);
+  min-width: 13rem;
   margin: 1rem;
 }
