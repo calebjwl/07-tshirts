@@ -8,10 +8,13 @@
 
   &__button {
     width: calc(100% / 5);
-    background: #fefefe;
+    background: $c-white;
+    color: $c-primary
   }
+
   &__button:hover {
     background: $c-primary;
+    color: $c-white;
   }
 
   &__button:hover .dropdown__list {
@@ -38,19 +41,23 @@
     border: $c-primary;
 
     &--pink {
-      // background:
+      color: $c-pink;
     }
 
     &--green {
-
+      color: $c-green
     }
 
     &--blue {
-
+      color: $c-blue;
     }
 
     &--yellow {
-
+      color: $c-yellow;
     }
   }
+}
+
+.size {
+
 }
