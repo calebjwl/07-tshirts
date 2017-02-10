@@ -16,6 +16,15 @@
   }
 
   &__options {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+    flex-grow: 1;
+
+  }
+
+  &__pic {
 
   }
 }

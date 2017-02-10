@@ -1,13 +1,16 @@
 .button-bar {
   display: flex;
+  flex-grow: 1;
   border-top: $s-border;
+  flex-direction: row;
 
   &__button {
-    width: calc(100% / 5);
+    flex-grow: 1;
+    max-width: 100%;
     border: 0;
     background: $c-white;
     color: $c-primary;
-    padding: .2rem;
+    padding: 0.3rem;
 
     &:hover {
       background: $c-primary;
@@ -87,13 +90,3 @@
     }
   }
 }
-// .size:hover .dropdown__list {
-//   display: flex;
-//   justify-content: center;
-//   flex-direction: column;
-//   position: absolute;
-//   bottom: 120%;
-//   left: 50%;
-//   margin: 0;
-//   transform: translate(-50%,0%);
-// }
