@@ -4,6 +4,7 @@
     flex-direction: column;
 
     &__item {
+
     }
   }
 
@@ -12,7 +13,11 @@
     text-align: right;
 
     &__pic {
+      width: 45%;
+    }
 
+    &__info {
+      align-self: center;
     }
   }
 
@@ -22,31 +27,31 @@
     border-top: none;
 
     > * + * {
+      border-left: 0;
       border-top: $s-border;
-      border-left: none;
     }
   }
 
   .dropdown {
     position: relative;
 
-    &__button {
-      // height: 2rem;
-    }
-
     &__list {
-    flex-direction: row;
-    position: absolute;
-    // right: 100%;
-    // top: 50%;
-    bottom: 0;
-    transform: translate(-0, -50%);
-    border-top: $s-border;
+      position: absolute;
+      right: 100%;
+      bottom: 50%;
+      left: auto;
+      flex-direction: row;
+      transform: translateY(50%);
 
       > * + * {
         border-left: $s-border;
         border-top: none;
       }
     }
+
+    &__button {
+      width: 2rem;
+    }
+
   }
 }
