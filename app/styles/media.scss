@@ -1,16 +1,10 @@
 @media (min-width: 460px) and (max-width: 760px) {
   .grid {
-    display: flex;
     flex-direction: column;
-
-    &__item {
-
     }
-  }
 
   .shop-card {
     flex-direction: row;
-    text-align: right;
 
     &__pic {
       width: 45%;
