@@ -1,0 +1,51 @@
+@media (min-width: 460px) and (max-width: 760px) {
+  .grid {
+    flex-direction: column;
+    }
+
+  .shop-card {
+    flex-direction: row;
+
+    &__pic {
+      width: 45%;
+    }
+
+    &__info {
+      align-self: center;
+    }
+  }
+
+  .button-bar {
+    flex-direction: column;
+    border-left: $s-border;
+    border-top: none;
+
+    > * + * {
+      border-left: 0;
+      border-top: $s-border;
+    }
+  }
+
+  .dropdown {
+    position: relative;
+
+    &__list {
+      position: absolute;
+      right: 100%;
+      bottom: 50%;
+      left: auto;
+      flex-direction: row;
+      transform: translateY(50%);
+
+      > * + * {
+        border-left: $s-border;
+        border-top: none;
+      }
+    }
+
+    &__button {
+      width: 2rem;
+    }
+
+  }
+}

@@ -1,0 +1,29 @@
+.shop-card {
+  display: flex;
+  flex-direction: column;
+  border: $s-border;
+
+  &_pic {
+
+  }
+
+  &__info {
+    text-align: center;
+  }
+
+  &__title {
+    margin: 1rem;
+  }
+
+  &__description {
+    margin: 1rem;
+  }
+
+  &__options {
+    display: flex;
+  }
+
+  &__pic {
+    // width: 100%;
+  }
+}

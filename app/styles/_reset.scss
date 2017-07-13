@@ -9,5 +9,15 @@ ul {
 }
 
 img {
+  align-self: center;
   max-width: 100%;
+  padding: 1rem;
+}
+
+h2 {
+  color: $c-primary;
+}
+
+p {
+  color: $c-primary;
 }
